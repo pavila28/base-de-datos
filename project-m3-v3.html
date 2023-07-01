@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de datos</title>
+    <link rel="stylesheet" href="./project-m3-v3.css">
+    <script defer src="./project-m3-v3.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Lista de alumnos</h1>
+    </header>
+
+    <section id="sectionNuevoAlumno">
+        <button id="btnNuevoAlumno">Nuevo alumno</button>
+    </section>
+
+    <section id="inputNuevoAlumno">
+        <div>
+            <input type="text" id="nombreAlumno" placeholder="Nombre">
+            <input type="text" id="apellidosAlumno" placeholder="Apellidos">
+            <input type="text" id="edadAlumno" placeholder="Edad">
+            <button id="agregarNuevoAlumnoLista">Agregar</button>
+        </div>
+    </section>
+
+    <section id="sectionVerVentanaMaterias">
+        <button id="btnVerMaterias">Asignar materias</button>
+    </section>
+
+    <div id="divBotonVerGrupos">
+        <button id="btnVerGrupos">Grupos</button>
+    </div>
+
+    <section id="contenedorAlumnos">
+        
+    </section>
+
+    <section id="asignacionDeMaterias">
+        <h1 id="labelInscripcionMateria">Inscripción de materias</h1>
+        <h1 id="labelInscripcionGrupo">Inscripción a grupo</h1>
+
+        <div id="listaDesplegableConAlumnos">
+            <select name="" id="nombreCompletoAlumnos">
+                <option>Lista de alumnos</option>
+            </select>
+        </div>
+
+        <div id="listaDesplegableDeMaterias">
+            <select name="" id="todasLasmaterias">
+                <option>Lista de materias</option>
+            </select>
+        </div>
+
+        <div id="listaDesplegableDeGrupos">
+            <select name="" id="todosLosGrupos">
+                <option>Lista de grupos</option>
+            </select>
+        </div>
+
+        <div id="califDeMateria">
+            <input type="text" id="asignarCalifMateria" placeholder="Calificación">
+        </div>
+
+        <div>
+            <button id="btnAsignarMateria">Asignar materia</button>
+            <button id="btnAsignarCalif">Asignar calificación</button>
+            <button id="btnPromedioAlumno">Promedio</button>
+            <button id="btnAsignarAlumnoGrupo">Asignar a grupo</button>
+            <button id="btnObtenerPromGrupo">Promedio grupal</button>
+            <button id="btnBuscarAlumno">Buscar alumno</button>
+        </div>
+
+        <h3 id="alumnoActual"></h3>
+        <h3 id="misMaterias"></h3>
+    </section>
+
+    <section id="sectionAgregarGrupos">
+        <h1>Grupos</h1>
+
+        <div id="divBotonTerminarCrearGrupo">
+            <button id="btnTerminarCrearGrupo">Terminar creación de grupo</button>
+        </div>
+
+        <div id="nombreNuevoGrupo">
+            <input type="text" id="asignarNombreAlgrupo" placeholder="Nombre del grupo">
+            <button id="salvarGrupo">Agregar</button>
+        </div>
+
+        <section id="contenedorGrupos">
+        
+        </section>
+    </section>
+</body>
+</html>
